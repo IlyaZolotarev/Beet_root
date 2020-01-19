@@ -1,0 +1,41 @@
+.partners {
+    background: url("../../build/assets/images/partners_background.png");   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+
+    &__container {
+        min-height: 490px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        @media screen and (max-width:768px) {
+            min-height: 300px;
+        }
+
+        @media screen and (max-width:600px) {
+            min-height: 250px;
+        }
+
+        
+        @media screen and (max-width:375px) {
+            min-height: 150px;
+        }
+    }
+}
+
+.partners-img-wrapper {
+    max-width: 220px;
+    width: 100%;
+    margin-right: 25px;
+
+    &:last-child {
+        margin-right: 0px;
+    }
+
+    img {
+        max-width: 100%;
+    }
+}

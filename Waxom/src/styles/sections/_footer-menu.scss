@@ -1,0 +1,316 @@
+.footer-menu {
+    background-color: #191919;
+
+    &__container {
+        min-height: 510px;
+        padding-top: 80px;
+        padding-bottom: 80px;
+
+        @media screen and (max-width:600px) {
+            padding-top: 20px;
+        }
+    }
+}
+
+.footer-nav-block {
+    display: flex;
+
+    @media screen and (max-width:600px) {
+        flex-wrap: wrap-reverse;
+        justify-content: space-around;
+    }
+}
+
+.nav-block-waxom {
+    max-width: 270px;
+    width: 100%;
+    margin-right: 40px;
+
+    @media screen and (max-width:600px) {
+        max-width: 200px;
+        width: 100%;
+        margin-right: 15px;
+    }
+
+    @media screen and (max-width:546px) {
+        max-width: 500px;
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    &__link {
+        font-family: "Montserrat", Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color: white;
+        cursor: pointer;
+
+        &:hover {
+            padding-bottom: 5px;
+            border-bottom: 1px solid white;
+        }
+
+        &:nth-child(1) {
+            font-size: 24px;
+        }
+    
+        svg {
+            g {
+                path {
+                    fill: white;
+                }
+            }
+        } 
+    }
+    
+
+    &__logo-wrapper {
+        margin-bottom: 25px;
+    }
+
+    p {
+        font-family: "Montserrat", Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color: #555555;
+        margin-bottom: 25px;
+    }
+}
+
+.logo-wrapper {
+    &--flex-start {
+        display: flex;
+        justify-content: flex-start;
+
+        @media screen and (max-width:546px) {
+            justify-content: center;
+        }
+    }
+}
+
+.title-logo {
+    &--font-size {
+        font-size: 34px;
+    }
+} 
+
+.nav-block-posts {
+    max-width: 270px;
+    width: 100%;
+    padding-top: 16px;
+    margin-right: 40px;
+
+    @media screen and (max-width:600px) {
+        max-width: 150px;
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    @media screen and (max-width:546px) {
+        max-width: 500px;
+        width: 100%;
+        padding-top: 0px;
+    }
+
+}
+
+.post-wrapper {
+    cursor: pointer;
+
+    &:last-child {
+        p {
+            &:last-child {  
+                border-bottom: none;
+            }
+        }
+    }
+
+    &:hover {
+        .post-date {
+            color: white;
+        }
+
+        .post-post {
+            color: #c7b299;
+        }
+    }
+
+    &__post-title {
+        font-family: "Raleway", Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        color: white;
+        margin-bottom: 25px;
+
+        @media screen and (max-width:546px) {
+            text-align: center;
+        }
+    }
+
+    &__post-date {
+            font-family: "Montserrat", Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            color: #363636;
+        }
+
+    &__post-post {
+        font-family: "Montserrat", Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color: #555555;
+        padding-bottom: 20px;
+        margin-bottom: 15px;
+        border-bottom: 1px solid #252525; 
+    }
+}
+
+.nav-block-twitter {
+    margin-right: 40px;
+    max-width: 270px;
+    width: 100%;
+    padding-top: 16px;
+
+    @media screen and (max-width:600px) {
+        max-width: 150px;
+        width: 100%;
+        margin-right: 0px;
+      
+    }
+
+    @media screen and (max-width: 546px) {
+        max-width: 500px;
+        width: 100%;
+        margin-right: 0px;
+        padding-top: 0px;
+    }
+
+}
+
+.twitter-wrapper {
+    cursor: pointer;
+    &:last-child {
+        p {
+            &:last-child {  
+                border-bottom: none;
+            }
+        }
+    }
+
+    &:hover {
+        .post-date {
+            color: white;
+        }
+
+        .post-post {
+            color: #c7b299;
+        }
+    }
+
+    &__post-title {
+        font-family: "Raleway", Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        color: white;
+        margin-bottom: 25px;
+
+        @media screen and (max-width: 600px) {
+           text-align: center;  
+        }
+    }
+
+    &__post-date {
+            font-family: "Montserrat", Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            color: #363636;
+            border-bottom: 1px solid #252525;  
+            margin-bottom: 15px;  
+            padding-bottom: 20px;
+        }
+
+    &__post-post {
+        font-family: "Montserrat", Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color: #555555;
+
+        span {
+            color: #00bff3;
+            cursor: pointer;
+        }
+
+        a {
+            color: #959595;
+
+            &:hover {
+                padding-bottom: 1px;
+                border-bottom: 1px solid #959595;
+            }
+        }
+       
+    }
+}
+
+.nav-block-widgets {
+    max-width: 270px;
+    width: 100%;
+    padding-top: 16px;
+
+    
+    @media screen and (max-width:600px) {
+        margin-right: 0px;
+        max-width: 550px;
+        width: 100%;
+        margin-bottom: 25px;
+       
+    }
+
+    &__post-title {
+        font-family: "Raleway", Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        color: white;
+        margin-bottom: 25px;
+
+        @media screen and (max-width:600px) {
+            text-align:center;
+        }
+    }
+
+}
+.widgets-img-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 270px;
+    width: 100%;   
+
+    @media screen and (max-width:871px) {
+        max-width: 100px;    
+    }
+
+    
+    @media screen and (max-width:600px) {
+        display: flex;
+        flex-direction: row;
+        max-width: 550px;
+        width: 100%;
+    }
+
+    &__widget-img-wrapper {
+        max-width: 130px;
+        width: 100%;
+
+        @media screen and (max-width:471px) {
+            margin-bottom: 10px;
+        }
+
+        @media screen and (max-width:600px) {
+            margin-left: 10px;
+        }
+
+        @media screen and (max-width: 1191px) {
+            max-width: 100px;
+        }
+
+        img {
+            max-width: 100%;
+        }
+    }
+}

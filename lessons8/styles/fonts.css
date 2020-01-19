@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'fontb78843047ece07fc9a36dd16bbe70af7';
+        
+        src:    url('https://nomail.com.ua/files/eot/b78843047ece07fc9a36dd16bbe70af7.eot?#iefix') format('embedded-opentype'),
+                url('https://nomail.com.ua/files/woff/b78843047ece07fc9a36dd16bbe70af7.woff') format('woff'),
+                url('https://nomail.com.ua/files/woff2/b78843047ece07fc9a36dd16bbe70af7.woff2') format('woff2');
+    }
+    
+    @font-face { font-family: 'Miso-Bold';  src: local('Miso-Bold'), url('https://nomail.com.ua/files/woff/b78843047ece07fc9a36dd16bbe70af7.woff') format('woff'); }
+
+    @font-face {
+        font-family: 'font84ed8ff4f8f7fa78ec9476e0b1449fe3';
+            
+            src:    url('https://nomail.com.ua/files/eot/84ed8ff4f8f7fa78ec9476e0b1449fe3.eot?#iefix') format('embedded-opentype'),
+                    url('https://nomail.com.ua/files/woff/84ed8ff4f8f7fa78ec9476e0b1449fe3.woff') format('woff'),
+                    url('https://nomail.com.ua/files/woff2/84ed8ff4f8f7fa78ec9476e0b1449fe3.woff2') format('woff2');
+        }
+        
+        @font-face { font-family: 'Lato-Light';  src: local('Lato-Light'), url('https://nomail.com.ua/files/woff/84ed8ff4f8f7fa78ec9476e0b1449fe3.woff') format('woff'); }

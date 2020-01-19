@@ -1,0 +1,22 @@
+// Initial styles
+
+@import "./../styles/fonts";
+@import "./../styles/animations";
+@import "./../styles/reboot";
+@import "./../styles/base";
+@import "./../styles/common";
+
+// Block
+
+@import "./blocks/button";
+@import "./blocks/spain";
+
+// Sections
+
+@import "./sections/hero";
+@import "./sections/choose-us";
+@import "./sections/place";
+@import "./sections/spain";
+@import "./sections/spain-second";
+@import "./sections/our-tourist";
+@import "./sections/footer";

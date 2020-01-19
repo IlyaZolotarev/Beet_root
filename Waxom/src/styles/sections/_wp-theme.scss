@@ -1,0 +1,53 @@
+
+.wp-theme {
+    background-image: -moz-linear-gradient( 0deg, rgb(33,27,25) 0%, rgb(78,52,39) 100%);
+    background-image: -webkit-linear-gradient( 0deg, rgb(33,27,25) 0%, rgb(78,52,39) 100%);
+    background-image: -ms-linear-gradient( 0deg, rgb(33,27,25) 0%, rgb(78,52,39) 100%);
+
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: auto;
+        padding: 40px 16px;
+
+        @media screen and (max-width:800px) {
+            flex-direction: column;
+        }
+    
+    }
+  }
+
+  .info {
+    
+
+    @media screen and (max-width:800px) {
+        text-align: center;
+        padding-bottom: 0px;
+        margin-bottom: 20px;
+    }
+
+    &__title {
+        font-family: "Raleway", sans-serif;
+        font-size: 30px;
+        color: #ffffff;
+         
+            span {
+                color: #c7b299;
+         
+         }
+        
+    } 
+    
+    &__sub-title {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 300;
+        font-size: 18px;
+        color: #615855;
+    }
+
+    &__button {
+        text-transform: uppercase;
+    
+    }
+  }

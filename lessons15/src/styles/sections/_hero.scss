@@ -1,0 +1,126 @@
+@import "./../constants/index.scss";
+@import "./../mixins.scss";
+
+.hero {
+    min-height: 100vh;
+   
+    &__section {
+        min-height: 100vh;
+        @include display-flex(column, center, center);
+        padding: 100px 16px;
+        @media screen and (max-width: $deviceSizeSM) {
+            padding: 50px 16px;
+        }
+    }
+    &__title-block {
+        margin-bottom: 30px;
+    }
+    &__divider {
+        margin-bottom: 40px;
+    }
+}
+
+.title-block {
+    text-align: center;
+
+    &__subtitle {
+        font-family: "Raleway", sans-serif;
+        font-weight: $fontWeightMedium;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+
+    &__title {
+        font-weight: $fontWeightBlack;
+        font-size: 60px;
+        text-transform: uppercase;
+    }
+}
+
+.divider {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+
+    i {
+        position: relative;
+        z-index: 3;
+        font-size: 20px;
+        color: gold;
+        padding: 0 10px;
+        background-color: white;
+    }
+
+    &:before {
+        position: absolute;
+        z-index: 2;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: block;
+        content: "";
+        width: 100%;
+        height: 1px;
+        background-color: gold;
+    }
+}
+
+.slider-block {
+    width: 100%;
+    &__slider {
+        min-height: 560px;
+    }
+
+    &__slide {
+        min-height: 560px;
+    }
+
+    &__slider-dots {
+
+    }
+}
+
+.slide {
+    position: relative;
+    display: flex;
+
+    &:after {
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: block;
+        content: "";
+        width: 1px;
+        height: 100%;
+        background-color: gold;
+    }
+
+    &__avatar-wrapper {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 50%;
+        padding-right: 80px;
+    }
+
+    &__avatar-decor {
+        position: relative;
+        max-width: 418px;
+        padding: 16px;
+    }
+
+    &__avatar{
+        height: 386px;
+        width: 386px;
+        border: 1px solid gold;
+    }
+
+    &__data-block {
+        width: 50%;
+        padding-left: 80px;
+    }
+}
+

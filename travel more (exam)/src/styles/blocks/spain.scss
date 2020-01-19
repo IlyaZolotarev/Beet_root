@@ -1,0 +1,52 @@
+.spain-overlay-block{
+    padding: 40px 30px 40px 30px;
+    max-width: 540px;
+    width: 100%;
+    min-height: 370px;
+    margin-bottom: 100px;
+    background-color: rgba(35, 35, 35, 0.902);
+
+    @media screen and (max-width:768px) {
+        max-width: 600px;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+      
+}
+
+.title-block-wrapper {
+max-width: 480px;
+
+@media screen and (max-width:600px) {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+&__spain-title {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+    color: #e8e8e8;
+    margin-bottom: 22px;
+}
+
+&__spain-sub-title {    
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+    color: #e8e8e8;
+    margin-bottom: 22px;
+    text-transform: uppercase;
+}
+
+&__spain-description {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 16px;
+    color: #e8e8e8;
+    font-weight: 100;
+    margin-bottom: 40px;
+    
+}
+}
+

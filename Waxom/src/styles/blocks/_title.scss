@@ -1,0 +1,54 @@
+.wrapper-title-block {
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+    text-align: center;
+
+    @media screen and (max-width:768px) {
+        padding-top: 60px;
+    }
+
+}
+
+.title-block {
+    max-width: 860px;
+    &__title {
+
+        &--color {
+            color: #606060;
+        }
+
+        &--color-white {
+            color: #ffffff;
+        }
+    }
+
+    &__sub-title {
+
+        &--color {
+            color: #606060;
+        }
+
+        &--color-white {
+            color: #ffffff;
+        }
+    }
+}
+
+
+
+
+.title {
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    margin-bottom: 15px;
+
+}
+
+.sub-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 40px;
+
+}

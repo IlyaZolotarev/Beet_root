@@ -1,0 +1,26 @@
+// Initial styles
+
+@import "./../styles/fonts";
+@import "./../styles/animations";
+@import "./../styles/reboot";
+@import "./../styles/base";
+@import "./../styles/common";
+
+// block 
+@import "./blocks/header";
+@import "./blocks/button";
+@import "./blocks/title";
+
+// Sections
+@import "./sections/hero";
+@import "./sections/about_us";
+@import "./sections/ideas";
+@import "./sections/wp-theme";
+@import "./sections/our-projects";
+@import "./sections/presentation";
+@import "./sections/mob-device";
+@import "./sections/statistic";
+@import "./sections/posts";
+@import "./sections/partners";
+@import "./sections/footer-menu"; 
+@import "./sections/footer"; 

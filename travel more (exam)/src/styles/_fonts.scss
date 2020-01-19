@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,300i,400,400i,600,600i,700,700i&display=swap');
+
+@font-face {
+    // название шрифта(чтобы не запутаться лучше указать название папки со шрифтом) 
+    font-family: "Aleo Regular"; 
+    // адрес шрифта и тип 
+    src: url("./../../build/assets/fonts/Aleo/Regular/aleo-regular-webfont.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 

@@ -1,0 +1,25 @@
+.ideas {
+    background-color: #fbfaf8;
+    min-width: 375px;
+  
+    &__container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column; ;
+        height: auto;
+        align-items: center;
+        
+    }
+}
+
+
+.img-wrapper {
+    max-width: 1230px;
+    width: 100%;
+    img {
+        max-width: 100%;
+    }
+}
+
+
+  

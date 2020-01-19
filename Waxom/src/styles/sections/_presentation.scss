@@ -1,0 +1,34 @@
+.presentation {
+    background-image: url("./../../build/assets/images/presentation_background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 210px;
+        padding-bottom: 210px;
+    }
+}
+
+
+
+
+.wrapper-title-block {
+    
+    &--small-padding {
+        padding-top: 50px;
+    }
+}
+
+.icon-play-wrapper {
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+}

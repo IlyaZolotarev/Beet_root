@@ -1,0 +1,116 @@
+.our-tourist {
+    min-height: 730px;
+    background: url("./../../build/assets/images/our-tourist_background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 375px;
+
+    @media screen and (max-width:768px) {
+        background-position: 10% 25%;
+    }
+
+    @media screen and (max-width:600px) {
+        background-position: 15% 25%;
+    }
+
+
+    @media screen and (max-width:375px) {
+        background-position: 20% 25%;
+    }
+
+    &__container {
+        min-height: 730px;
+        min-width: 375px;
+
+        @media screen and (max-width:961px) {
+            padding-bottom: 16px;
+        }  
+    }
+
+    &__our-tourist-title-block {
+        min-height: 245px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        @media screen and (max-width:961px){
+            min-height: 200px;
+        }
+
+        h1 {
+            font-family: "Aleo Regular", sans-serif;
+            font-size: 36px;
+            color: white;
+        }
+    }
+}
+
+.our-tourist-img-wrapper {
+    @media screen and (max-width:445px){
+        max-width: 445px;
+
+    img {
+        max-width: 100%;
+    }
+}
+
+   
+}
+
+.our-tourist-info-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 285px;
+    
+    
+    @media screen and (max-width:961px){
+        display: flex;
+        flex-direction: column;
+    }
+
+ 
+}
+
+.story {
+    background-color: #333333;
+    min-height: 285px;
+    padding: 45px 50px 20px 50px;
+
+
+    @media screen and (max-width:961px){
+        max-width: 445px;
+        width: 100%;
+        text-align: center;
+        min-height: 225px;
+        padding: 20px 20px 20px 20px;
+    }
+
+    &__story-title {
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 100;
+        color: #fefefe;
+      
+    }
+
+    &__story-sub-title {
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 16px;
+        color: #e8e8e8;
+        font-weight: 100;
+        margin: 20px 0px 0px;
+
+        &:before {
+            content: open-quote;
+            color: #5474fd;
+            font-size: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 0px;
+            position: relative;
+            top: 15px;
+            padding-right: 5px;
+        }
+    }
+}

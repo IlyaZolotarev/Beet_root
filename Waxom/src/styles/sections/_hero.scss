@@ -1,0 +1,153 @@
+@import "./../constants/index.scss";
+
+.hero {
+    background: url("../../build/assets/images/hero_background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    &__container {
+        min-height: 1024px;
+        max-width: calc(1625px + 16px * 2);
+        width: 100%;
+        padding-top: 370px;
+        position: relative;
+
+        @media screen and (max-width:600px) {
+            padding-top: 280px;
+        }
+
+        @media screen and (max-width:375px) {
+            padding-top: 230px;
+        }
+    
+    }
+
+    &__arrow-left-wrapper {
+        position: absolute;
+        left: 0%;
+        top: 30%;
+        transform: translateY(-30%);
+        cursor: pointer;
+
+
+
+        @media screen and (max-width:780px) {
+            display: none;
+        }
+    }
+
+    &__arrow-right-wrapper {
+        position: absolute;
+        right: 0%;
+        top: 30%;
+        transform: translateY(-30%);
+        cursor: pointer;
+
+        @media screen and (max-width:780px) {
+            display: none;
+        }
+    }
+
+}
+
+.arrow-left-wrapper {
+    
+    &:hover {
+        svg {
+            g {
+                path {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+.arrow-right-wrapper {
+    
+    &:hover {
+        svg {
+            g {
+                path {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+.slider {
+    position: relative;
+    display: flex;
+   
+    align-items: center;
+    flex-direction: column;
+    min-height: 610px;
+
+    &__slide {
+        color: white;
+    }
+
+}
+
+.slide {
+    max-width: 600px;
+    width: 100%;
+    margin-bottom: 48px;
+    
+    &__title {
+        text-align: center;
+        font-size: 36px;
+        font-family: "Raleway", sans-serif;
+        font-weight: 500;
+    }
+
+    &__sub-title {
+        text-align: center;
+        font-size: 52px;
+        font-family: "Raleway", sans-serif;
+        font-weight: 800;
+    }
+
+    &__discription {
+        text-align: center;
+        font-size: 16px;
+        font-family: "Montserrat", sans-serif;
+    }
+}
+
+
+.nav-btn {
+    display: flex;
+    justify-content: space-between;   
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    margin: 0 auto;
+    max-width: 100px;
+    min-height: 20px;
+    width: 100%;
+    font-size: 11px;
+    bottom:5%;  
+
+    &__btn {
+        color:#979697;
+
+        &:first-child {
+            margin: 0px;
+        }
+     }
+
+    &__btn{
+
+        &:hover {
+            font-weight: 1;
+            font-size: 15px;
+            color: #d3c1ad;
+        }
+    }
+}
+

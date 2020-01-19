@@ -1,0 +1,22 @@
+.spain-second {
+    background: url("./../../build/assets/images/spain_second_backround.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 700px;
+    min-width: 375px;
+
+    &__container {
+        min-height: 700px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+
+        @media screen and (max-width:768px) {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+         }
+    }
+
+}

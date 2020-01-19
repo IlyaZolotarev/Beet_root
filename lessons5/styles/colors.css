@@ -1,0 +1,44 @@
+.list-weather li:nth-child(1){
+    background-color: #39c;
+}
+
+.list-weather li:nth-child(2){
+    background-color: #3cc;
+}
+
+.list-weather li:nth-child(3){
+    background-color: #969;
+}
+
+.list-weather li:nth-child(4){
+    background-color: #c24747;
+}
+
+.list-weather li:nth-child(5){
+    background-color: #e2674a;
+}
+
+.list-weather li:nth-child(6){
+    background-color: #ffcc66;
+}
+
+.list-weather li:nth-child(7){
+    background-color: #9c96;
+}
+
+.list-weather li:nth-child(8){
+    background-color: #699;
+}
+
+.list-weather li:nth-child(9){
+    background-color: #c69;
+}
+
+.list-weather li:nth-child(10){
+    background-color: #396;
+}
+
+.list-weather li:nth-child(11){
+    background-color: #669;
+}
+
