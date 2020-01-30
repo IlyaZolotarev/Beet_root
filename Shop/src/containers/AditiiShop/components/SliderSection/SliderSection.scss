@@ -1,0 +1,12 @@
+.slider-section {
+    background: url("./../../../../assets/images/slider_background.png") no-repeat;
+    background-size: cover;
+
+    &__container {
+        min-height: 445px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+    }
+}

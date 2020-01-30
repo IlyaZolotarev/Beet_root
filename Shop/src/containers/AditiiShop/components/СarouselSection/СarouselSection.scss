@@ -1,0 +1,9 @@
+.carousel-section {
+
+    &__container {
+        min-height: 190px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

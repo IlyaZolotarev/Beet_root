@@ -1,0 +1,8 @@
+@import './../../../../styles/constants/index.scss';
+
+.search-input {
+    height: 30px;
+    width: 400px;
+    border: 1px solid $Gainsboro;
+    border-right: none;
+}

@@ -1,0 +1,9 @@
+@import './../../../../styles/constants/index.scss';
+
+.search-button {
+    background: url("./../../../../assets/icons/search-icon.svg") no-repeat scroll 0px 2px;
+    width: 35px;
+    height: 30px;
+    border: 1px solid $Gainsboro;
+    border-left: none;
+}

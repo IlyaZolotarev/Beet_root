@@ -1,0 +1,22 @@
+@import './../../../../../../styles/constants/index.scss';
+
+.navbar-list {
+
+    a {
+        font-family: "BebasNeue", Arial, Helvetica, sans-serif;
+        font-size: 21px;
+        color: $white;
+        padding-right: 23px;
+        margin-left: 23px;
+        border-right: 1px solid $white;
+
+        &:first-child {
+            margin-left: 0;
+        }
+
+        &:last-child {
+            padding-right: 0;
+            border: none;
+        }
+    }
+}

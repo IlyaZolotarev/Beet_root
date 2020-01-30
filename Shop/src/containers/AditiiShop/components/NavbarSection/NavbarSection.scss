@@ -1,0 +1,13 @@
+@import './../../../../styles/constants/index.scss';
+
+.navbar-section {
+    position: relative;
+    min-height: 35px;
+    background-color: $MediumTurquoise;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 2px -5px #565656;
+    z-index: 100;
+    
+}

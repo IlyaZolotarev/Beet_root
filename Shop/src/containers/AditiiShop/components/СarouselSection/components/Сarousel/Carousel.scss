@@ -1,0 +1,76 @@
+@import './../../../../../../styles/constants/index.scss';
+
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__carousel-info{
+        max-width: 85px;
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    &__carousel-img-wrapper{
+        height: 151px;
+       
+
+        img {
+            min-height: 100%;
+        }
+    }
+}
+
+.carousel-info {
+
+    &__goods-name {
+        font-family: "BebasNeue", Arial, Helvetica, sans-serif;
+        font-size: 27px;
+        color: $DarkGray;
+        line-height: 26px;
+        margin-bottom: 15px;
+    }
+
+    &__button {
+        font-family: "BebasNeue", Arial, Helvetica, sans-serif;
+        font-size: 19px;
+        color: $white;
+        background-color: $Shamrock;
+        width: 60px;
+        border-radius: 3px;
+    }
+}
+
+.slick-prev {
+    height: 88px;
+    width: 30px;
+    background: url("./../../../../../../assets/images/prevArrow.png"); 
+    left: -35px;;
+    &:before {
+       content: '';
+    }
+
+    &:hover {
+        background: url("./../../../../../../assets/images/prevArrow.png"); 
+    }
+    &:focus {
+        background: url("./../../../../../../assets/images/prevArrow.png"); 
+    }
+}
+
+.slick-next {
+    height: 88px;
+    width: 30px;
+    background: url("./../../../../../../assets/images/nextArrow.png"); 
+    right: -35px;;
+    &:before {
+       content: '';
+    }
+
+    &:hover {
+        background: url("./../../../../../../assets/images/nextArrow.png"); 
+    }
+    &:focus {
+        background: url("./../../../../../../assets/images/nextArrow.png"); 
+    }
+}
