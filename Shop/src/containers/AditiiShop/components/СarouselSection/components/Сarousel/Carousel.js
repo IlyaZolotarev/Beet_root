@@ -3,9 +3,9 @@ import './Carousel.scss';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import carouselImg from './../../../../../../assets/images/carousel-image1.png'
 import { carouselContent } from './data';
-import NextArrow from './components/NextArrow/NextArrow';
+import Button from './../../../../../../components/Button/Button';
+import GoodsName from './../../../../../../components/GoodsName/GoodsName';
 
 const Carousel = () => {
     const settings = {
@@ -25,8 +25,8 @@ const Carousel = () => {
                                 <img src={imgLink} alt="carousel-img"></img>
                             </div>
                             <div className="carousel-item__carousel-info">
-                                <p className="carousel-info__goods-name">{title}</p>
-                                <button className="carousel-info__button">Shop</button>
+                                <GoodsName goodsName={title} />
+                                <Button name="Shop" size="s" color="green" />
                             </div>
                         </div>
                     </div>

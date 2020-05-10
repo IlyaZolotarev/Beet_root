@@ -1,13 +1,14 @@
 import React from 'react';
 import './Basket.scss';
 import BasketImg from './components/BasketImg/BasketImg';
-import TotalAmount from './components/TotalAmount/TotalAmount';
+import TotalPrice from './components/TotalPrice/TotalPrice';
+import {TotalAmount} from './data';
 
 const Basket = () => {
     return (
         <div className="basket">
             <BasketImg />
-            <TotalAmount />
+            <TotalPrice price={TotalAmount} />
         </div>
     );
 }

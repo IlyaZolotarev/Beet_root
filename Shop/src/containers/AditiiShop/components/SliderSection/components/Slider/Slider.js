@@ -4,6 +4,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { sliderContent } from './data'
+import Button from './../../../../../../components/Button/Button'
 
 
 const SliderBlock = () => {
@@ -16,26 +17,6 @@ const SliderBlock = () => {
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
-
-        // appendDots: dots => {
-        //     const customDots = React.Children.map(dots, dot => {
-        //         if (dot.props['className'] === 'slick-active') {
-        //             return React.cloneElement(dot, {
-        //                 className: classNames("slick-active"),
-        //             });
-        //         } else {
-        //             return React.cloneElement(dot, {
-        //                 className: classNames("dot123"),
-        //             });
-        //         }
-        //     });
-
-        //     return (
-        //         <div>
-        //             <ul> {customDots} </ul>
-        //         </div>
-        //     );
-        // },
 
         customPaging: i => (
             <div className="nav-btn"
@@ -66,12 +47,12 @@ const SliderBlock = () => {
                         <div className="slide-item">
 
                             <div className="slide-item__slide-img-wrapper">
-                                <img src={imgLink} alt="slide-image"></img>
+                                <img src={imgLink} alt="slide-item"></img>
                             </div>
                             <div className="slide-item__slide-info">
                                 <p className="slide-info__goods-name">{title}</p>
                                 <p className="slide-info__goods-description">{description}</p>
-                                <button className="slide-info__button">Shop Now</button>
+                                <Button name="Shop Now" size="m" color="transparent" border />
                             </div>
                         </div>
                     </div>

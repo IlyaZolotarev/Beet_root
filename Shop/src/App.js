@@ -1,10 +1,11 @@
+import './styles/fonts.scss';
+import './styles/index.scss';
+
 import React from 'react';
 import AditiiShop from './containers/AditiiShop/AditiiShop';
 
-// Styles
 
-import './styles/fonts.scss';
-import './styles/index.scss';
+
 
 function App() {
   return (

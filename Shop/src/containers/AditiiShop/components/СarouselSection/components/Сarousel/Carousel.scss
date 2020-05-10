@@ -21,26 +21,6 @@
     }
 }
 
-.carousel-info {
-
-    &__goods-name {
-        font-family: "BebasNeue", Arial, Helvetica, sans-serif;
-        font-size: 27px;
-        color: $DarkGray;
-        line-height: 26px;
-        margin-bottom: 15px;
-    }
-
-    &__button {
-        font-family: "BebasNeue", Arial, Helvetica, sans-serif;
-        font-size: 19px;
-        color: $white;
-        background-color: $Shamrock;
-        width: 60px;
-        border-radius: 3px;
-    }
-}
-
 .slick-prev {
     height: 88px;
     width: 30px;

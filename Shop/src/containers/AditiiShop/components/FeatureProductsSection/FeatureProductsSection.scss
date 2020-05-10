@@ -1,8 +1,14 @@
 .feature-products{
-
     &__container {
         min-height: 755px;
-        max-width: 1280px;
-        width:100%;
+        padding: 50px 80px 70px 60px;
+    }
+
+    &__products-wrapper{
+        max-width: 880px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
 }

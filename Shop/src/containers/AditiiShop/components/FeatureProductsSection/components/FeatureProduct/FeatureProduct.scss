@@ -1,0 +1,26 @@
+@import './../../../../../../styles/constants/index.scss';
+
+.feature-product {
+
+    &__product {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      max-width: 255px;
+      width: 100%;
+      min-height: 260px;
+      border: 2px solid $Whisper;
+      border-bottom: 5px solid $Shamrock;
+      margin-bottom: 45px;  
+    }
+}
+
+.product {
+
+  &__buy-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
